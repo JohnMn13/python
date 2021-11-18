@@ -19,9 +19,9 @@ for i in range(11): # números del 0 al 10
 #    # 1. while condición:
 #    # 2.    Hace esto mientras condición resulta verdadero
 
-print("Ejemplo while")
+print("While by John")
 a = 1
-b = 10
+b = 11
 while a < b:
     print(a)
     a += 1
