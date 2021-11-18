@@ -12,7 +12,7 @@
 # función range:     range(desde, hasta)
 
 print("Ejemplo for")
-for i in range(10): # números del 0 al 10
+for i in range(11): # números del 0 al 10
     print(i)
 
 # while
@@ -35,4 +35,7 @@ while a < b:
 numero = 1 #pon aquí el número del que quieres hacer la tabla
 print("tabla de multiplicar del ", numero)
 
-
+numero = 1
+print("tabla de multiplicar del ", numero)
+for i in range(11):
+    print(numero,"por" ,i, "=",numero *i )
