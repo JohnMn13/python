@@ -35,7 +35,15 @@ while a < b:
 numero = 1 #pon aquí el número del que quieres hacer la tabla
 print("tabla de multiplicar del ", numero)
 
-numero = 1
+numero = 3
 print("tabla de multiplicar del ", numero)
 for i in range(11):
     print(numero,"por" ,i, "=",numero *i )
+
+print("While by John") 
+numero=int(input("escribe un numero"))
+a = 1
+b = 11
+while a < b:
+    print(numero, "por" ,a, "=" ,numero *a )
+    a += 1
